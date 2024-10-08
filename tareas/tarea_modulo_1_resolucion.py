@@ -651,6 +651,8 @@ ejemplo( "Este es un ejemplo de texto donde queremos buscar la palabra clave 'ej
 * Realizar WebScraping, se permite replicar el proyecto de algún tutorial que se encuentre en linea. En caso de replicar un proyecto, se tiene que describir linea a linea que está haciendo.
 """
 
+#Vamos a hacer webscraping en una pagina de estadisticas de la premier league, sacaremos las estadisticas principales de cada equipo pero no vamos a hacer limpieza de datos.
+
 import requests
 
 standings_url = "https://fbref.com/es/comps/9/2021-2022/Estadisticas-2021-2022-Premier-League"
